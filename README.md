@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/junjanjon/my-pixiv-follow-downloader.svg?style=svg)](https://circleci.com/gh/junjanjon/my-pixiv-follow-downloader)
+
 # pixiv-follow-downloader
 
 pixiv でフォローしているユーザの作品をダウンロードします。
