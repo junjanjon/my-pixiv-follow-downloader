@@ -2,7 +2,7 @@
 version: 2.1
 
 jobs:
-  build:
+  lint:
     working_directory: ~/workspace
     docker:
       - image: node:12.1
