@@ -24,5 +24,9 @@
   "license": "MIT",
   "directories": {
     "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:junjanjon/my-pixiv-follow-downloader.git"
   }
 }
