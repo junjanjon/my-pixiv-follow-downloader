@@ -18,7 +18,7 @@
     "eslint-watch": "^4.0.2"
   },
   "scripts": {
-    "lint": "eslint --fix main.js lib/*"
+    "eslint": "eslint --fix main.js lib/*"
   },
   "author": "Hiroi Junki",
   "license": "MIT",
