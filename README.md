@@ -35,7 +35,7 @@ node main.js
 
 実行するとダウンロードを開始します。pixiv ディレクトリ以下に作品を保存します。
 
-[pixiv_client_mechanize](https://github.com/junjanjon/pixiv_client_mechanize) と連携することで、ダウンロードした作品を簡単に見ることができます。
+[my-pixiv-viewer](https://github.com/junjanjon/my-pixiv-viewer) と連携することで、ダウンロードした作品を簡単に見ることができます。
 
 ## Contribute
 
