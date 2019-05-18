@@ -2,6 +2,8 @@
 
 pixiv でフォローしているユーザの作品をダウンロードします。
 
+[my-pixiv-viewer](https://github.com/junjanjon/my-pixiv-viewer) を利用することで、ダウンロードした作品を簡単に見ることができます。
+
 ## Usage
 
 ### インストール
@@ -34,8 +36,6 @@ node main.js
 ```
 
 実行するとダウンロードを開始します。pixiv ディレクトリ以下に作品を保存します。
-
-[my-pixiv-viewer](https://github.com/junjanjon/my-pixiv-viewer) と連携することで、ダウンロードした作品を簡単に見ることができます。
 
 ## Contribute
 
