@@ -9,7 +9,7 @@
     "unzipper": "^0.10.4"
   },
   "devDependencies": {
-    "eslint": "^6.2.2",
+    "eslint": "^6.3.0",
     "eslint-config-standard": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^9.2.0",
