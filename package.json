@@ -4,7 +4,7 @@
   "description": "pixiv でフォローしているユーザの作品をダウンロードします。",
   "main": "main.js",
   "dependencies": {
-    "pixiv-api-client": "git@github.com:junjanjon/pixiv-api-client.git#update/axios-0.19.0",
+    "pixiv-api-client": "^0.20.0",
     "request": "^2.88.0",
     "unzipper": "^0.10.3"
   },
