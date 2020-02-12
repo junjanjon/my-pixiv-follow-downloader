@@ -5,7 +5,7 @@
   "main": "main.js",
   "dependencies": {
     "pixiv-api-client": "^0.22.0",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "unzipper": "^0.10.8"
   },
   "devDependencies": {
