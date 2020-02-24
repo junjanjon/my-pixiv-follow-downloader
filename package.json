@@ -6,7 +6,7 @@
   "dependencies": {
     "pixiv-api-client": "^0.22.0",
     "request": "^2.88.2",
-    "unzipper": "^0.10.8"
+    "unzipper": "^0.10.9"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
