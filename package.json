@@ -5,14 +5,14 @@
   "main": "main.js",
   "dependencies": {
     "pixiv-api-client": "git@github.com:junjanjon/pixiv-api-client.git#master",
-    "request": "^2.88.0",
-    "unzipper": "^0.10.5"
+    "request": "^2.88.2",
+    "unzipper": "^0.10.10"
   },
   "devDependencies": {
-    "eslint": "^6.5.1",
+    "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-watch": "^6.0.1"
