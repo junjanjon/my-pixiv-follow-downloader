@@ -34,7 +34,8 @@ vim config.json
 ### ダウンロードを開始する
 
 ```
-node main.js
+npm run download
+# node main.js
 ```
 
 実行するとダウンロードを開始します。pixiv ディレクトリ以下に作品を保存します。
