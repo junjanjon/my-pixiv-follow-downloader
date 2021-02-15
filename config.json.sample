@@ -1,5 +1,4 @@
 {
-	"userName": "pixiv Id",
-	"password": "PASSWORD",
+	"refreshToken": "",
 	"maxPage": "20"
 }

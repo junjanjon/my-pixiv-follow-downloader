@@ -17,7 +17,7 @@ cd pixiv-follow-downloader
 yarn install
 ```
 
-### ユーザ情報を設定する
+### ログイン情報であるリフレッシュトークンを設定する
 
 ```
 cp config.json.sample config.json.sample
@@ -26,8 +26,7 @@ vim config.json
 
 |key|info|
 |:-|:-|
-|userName|pixiv ID|
-|password|password|
+|refreshToken|リフレッシュトークン。[Pixiv OAuth Flow](https://gist.github.com/junjanjon/9658c96e00b9d55eb002d83d872dd884) を参考に設定できる。|
 |maxPage|指定ページまでダウンロードする。最大250ページ。1ページ20作品。|
 
 
