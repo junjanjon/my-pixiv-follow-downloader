@@ -4,7 +4,7 @@
   "description": "pixiv でフォローしているユーザの作品をダウンロードします。",
   "main": "main.js",
   "dependencies": {
-    "pixiv-api-client": "^0.24.0",
+    "pixiv-api-client": "^0.25.0",
     "request": "^2.88.2",
     "unzipper": "^0.10.10"
   },
