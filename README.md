@@ -10,11 +10,11 @@ pixiv でフォローしているユーザの作品をダウンロードしま�
 
 ### インストール
 
-npm でインストールする。
+yarn でインストールする。
 
 ```
 cd pixiv-follow-downloader
-npm install
+yarn install
 ```
 
 ### ユーザ情報を設定する
@@ -34,7 +34,7 @@ vim config.json
 ### ダウンロードを開始する
 
 ```
-npm run download
+yarn run download
 # node main.js
 ```
 
