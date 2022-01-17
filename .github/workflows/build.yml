@@ -6,5 +6,7 @@ on:
 
 jobs:
   view_pull_request_author:
-    - name: View PR author
-      run: echo "This PR is opened by ${{ github.event.pull_request.user.login }} ."
+    runs-on: ubuntu
+    steps:
+      - name: View PR author
+        run: echo "This PR is opened by ${{ github.event.pull_request.user.login }} ."
