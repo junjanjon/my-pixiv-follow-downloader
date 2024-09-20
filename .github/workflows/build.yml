@@ -5,8 +5,12 @@ on:
     branches: [ master ]
 
 jobs:
-  view_pull_request_author:
+  eslint:
     runs-on: ubuntu-latest
     steps:
-      - name: View PR author
-        run: echo "This PR is opened by ${{ github.event.pull_request.user.login }} ."
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npm run eslint
