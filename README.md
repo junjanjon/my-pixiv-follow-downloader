@@ -1,5 +1,3 @@
-[![CircleCI](https://circleci.com/gh/junjanjon/my-pixiv-follow-downloader.svg?style=svg)](https://circleci.com/gh/junjanjon/my-pixiv-follow-downloader)
-
 # pixiv-follow-downloader
 
 pixiv でフォローしているユーザの作品をダウンロードします。
@@ -10,11 +8,11 @@ pixiv でフォローしているユーザの作品をダウンロードしま�
 
 ### インストール
 
-yarn でインストールする。
+npm でインストールする。
 
 ```
 cd pixiv-follow-downloader
-yarn install
+npm install
 ```
 
 ### ログイン情報であるリフレッシュトークンを設定する
@@ -33,7 +31,8 @@ vim config.json
 ### ダウンロードを開始する
 
 ```
-yarn run download
+mkdir -p tmp
+npm run download
 # node main.js
 ```
 

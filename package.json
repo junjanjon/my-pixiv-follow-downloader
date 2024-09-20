@@ -4,18 +4,16 @@
   "description": "pixiv でフォローしているユーザの作品をダウンロードします。",
   "main": "main.js",
   "dependencies": {
-    "pixiv-api-client": "^0.25.0",
+    "mkdirp": "^3.0.1",
+    "pixiv-api-client": "^0.27.0",
     "request": "^2.88.2",
-    "unzipper": "^0.10.10"
+    "unzipper": "^0.12.3"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "eslint-watch": "^6.0.1"
+    "@eslint/js": "^9.10.0",
+    "eslint": "^9.10.0",
+    "eslint-config-google": "^0.14.0",
+    "globals": "^15.9.0"
   },
   "scripts": {
     "eslint": "eslint --fix main.js lib/*",
