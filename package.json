@@ -10,7 +10,7 @@
     "unzipper": "^0.12.3"
   },
   "devDependencies": {
-    "@eslint/js": "^9.10.0",
+    "@eslint/js": "^9.22.0",
     "eslint": "^9.10.0",
     "eslint-config-google": "^0.14.0",
     "globals": "^15.9.0"
