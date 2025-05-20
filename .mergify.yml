@@ -1,7 +1,7 @@
 queue_rules:
   - name: default
     queue_conditions:
-      - base=master
+      - base=main
       - author~=^dependabot\[bot\]$
       - "status-success=ci/circleci: lint"
     merge_conditions:
